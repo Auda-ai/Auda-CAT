@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 
 
-app.use('/api/members', require('./routes/api/members'));
+app.use('/api/addition', require('./routes/api/addition'));
+app.use('/api/multiplication', require('./routes/api/multiplication'));
 
 const PORT = process.env.PORT || 5000;
 

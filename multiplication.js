@@ -1,9 +1,5 @@
-function multipyingNumbers (array) {
-    let product = 1;
-    for(i=0; i<array.length; i++){
-        product *= array[i];
-    }
-    return product;
+function multipyingNumbers (a, b, c, d, e) {
+   return a*b*c*d*e;
 }
 
 module.exports = multipyingNumbers();

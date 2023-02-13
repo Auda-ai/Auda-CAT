@@ -1,9 +1,5 @@
-function addingNumbers (array) {
-    let sum = 0;
-    for(i=0; i<array.length; i++){
-        sum += array[i];
-    }
-    return sum;
+function addingNumbers (a, b, c, d, e) {
+    return a*b*c*d*e;
 }
 
 module.exports = addingNumbers();
