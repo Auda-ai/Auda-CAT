@@ -4,8 +4,8 @@ const multiplication = require('./multiplication');
 const router = express.Router();
 
 
-router.get('/', (req, res) => res.json(addition));
-router.get('/', (req, res) => res.json(multiplication));
+router.get('/', (req, res) => res.send(addition));
+router.get('/', (req, res) => res.send(multiplication));
 
 module.exports = router;
 
